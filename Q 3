@@ -1,0 +1,27 @@
+#include <stdio.h>
+#include <math.h>
+
+int main(){
+
+    unsigned short int x1,x2,y1,y2,d;
+
+    printf("x1 = ");
+    scanf("%i", &x1);
+    printf("x2 = ");        // take the X axes points from the user
+    scanf("%i", &x2);
+
+    printf("y1 = ");
+    scanf("%i", &y1);       // take the y axes points from the user
+    printf("y2 = ");
+    scanf("%i", &y2);
+
+   
+
+    d = sqrt(pow(x1-x2,2)+pow(y1-y2,2));
+
+    printf("the distance = %i" , d);
+    
+
+ return 0;
+
+}
